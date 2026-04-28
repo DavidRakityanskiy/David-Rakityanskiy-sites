@@ -1,0 +1,31 @@
+.header, .image-container, .btn{
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  #one, #two {
+    padding: 20px;
+    background-color: bisque;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: black;
+    font-weight: bold;
+  }
+  
+ body {
+  background-image: url("https://img2.akspic.ru/crops/6/9/7/0/1/110796/110796-iskusstvennyj_kamen-kirpichnaya_kladka-kamen-kamennaya_kladka-nalozhenie_tekstury-3008x1848.jpg");
+
+}
+  
+  h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+  
+  }
