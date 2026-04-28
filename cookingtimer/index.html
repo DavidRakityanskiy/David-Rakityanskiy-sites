@@ -1,0 +1,46 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="main-container">
+
+  <div class="video-container">
+    <video autoplay muted loop playsinline class="video" id="myVideo">
+            <source src="https://www.pexels.com/ru-ru/download/video/9698168/">
+    </video> 
+  </div>
+
+ <div id="menu">
+    <h1>Cooking Timer, Select and Press</h1>
+    <div class="btnContainer">
+      <button id="btn" onclick="startTimer(300)">5 min</button>
+      <button id="btn" onclick="startTimer(600)">10 min</button>
+      <button id="btn" onclick="startTimer(1800)">30 min</button>
+    </div>
+  </div>
+
+  <div id="timer" style="display: none;">
+    <h1 id="time">00:00</h1>
+    <button id="btn" onclick="goBack()">Back</button>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+        background-color: #657fa7;
+        background-image: url("https://s00.yaplakal.com/pics/pics_original/9/6/2/8504269.jpg");
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: 'Noto Sans JP', sans-serif;
+}
+
+form {
+        background-color: #fff;  
+        width: 700px;
+        overflow: hidden;
+        padding: 70px;
+        display: flex;
+        flex-wrap:wrap;
+        border-radius: 50px;
+}
+
+label {
+        font-size: 16px;
+        padding: 10px;
+        margin: 10px;
+        font-weight: bold;
+    }
+
+.question {
+        padding: 30px;
+    }
+
+.btn {
+        background-color: #5ca849; 
+        color: #fff;
+        width: 100%;
+        border: 1px solid black;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+        border-radius: 50px;
+    }
+
+#show {
+        margin: auto;
+        margin-top: 10px;
+    }
